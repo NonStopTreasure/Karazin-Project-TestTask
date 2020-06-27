@@ -1,0 +1,21 @@
+
+.ChangeSave Button{
+
+    margin-left: 5px;
+    background: rgb(248, 96, 96);
+    color: white;
+    border: 0px;
+    font-size: 20px;
+    height: 40px;
+    width: 95px;
+    border-radius: 5px;
+}
+.ChangeForm input{
+    width: 90px;
+    height: 40px;
+    border-radius: 5px;
+    border: 2px solid rgb(167, 165, 166);
+}
+.Note div{
+
+}
