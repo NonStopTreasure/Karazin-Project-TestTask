@@ -1,0 +1,19 @@
+
+ul.Names li p{
+    margin: 0;
+    text-align: center;
+    display: inline-block;
+    height: auto;
+    width: auto;
+    margin-top: 30%;
+    color: black;
+    font-size: 24px;
+    font-weight: 200;
+}
+
+ul.Names li{
+    grid-area: Names;
+    height: min-content;
+    width: min-content;
+    /*border: 1px  solid green;*/
+}

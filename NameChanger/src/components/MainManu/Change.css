@@ -1,0 +1,25 @@
+@import '~antd/dist/antd.css';
+ul.ChangeButtom li  a {
+    display: inline-block;
+    margin: 0;
+    font-size:16px;
+    font-family: Roboto,sans-serif;
+    font-weight: 700;
+    position: absolute;
+    left: 20%;
+    top: 20%;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+ul.ChangeButtom li{
+    margin-left: -35%;
+    margin-top: 10px;
+    position: relative;
+    background: rgb(0, 210, 239);
+    grid-area: Change;
+    height: 40px;
+    width: 95px;
+    border-radius: 5px;
+    /*border: 1px solid aqua;*/
+}

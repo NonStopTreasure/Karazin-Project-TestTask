@@ -1,0 +1,22 @@
+
+ul.DelButtom li{
+    /*border: 1px solid red;*/
+    margin-left: -55px;
+    padding-top: 15px;
+    height: min-content;
+    width: min-content;
+    grid-area: Del;
+}
+
+ul.DelButtom li {
+    display: block;
+    height: min-content;
+    width: min-content;
+    margin-top: -5xp;
+}
+
+ul.DelButtom li a{
+    font-size: 22px;
+    margin: 0;
+    color: red;
+}

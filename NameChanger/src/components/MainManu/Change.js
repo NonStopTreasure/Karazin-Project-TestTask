@@ -1,4 +1,5 @@
 import React from "react";
+import './Change.css'
 
 function Change() {
     return(

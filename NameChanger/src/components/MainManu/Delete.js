@@ -1,4 +1,5 @@
 import React from "react";
+import './Delete.css'
 import DeleteOutlined from "@ant-design/icons/es/icons/DeleteOutlined";
 import DelScript from './../../scrpts/DelScript';
 function Delete() {

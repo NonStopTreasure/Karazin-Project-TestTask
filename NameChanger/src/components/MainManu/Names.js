@@ -1,4 +1,6 @@
 import React from "react";
+import './Names.css'
+
 function Names() {
     return (
         <div>
