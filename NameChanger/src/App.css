@@ -1,0 +1,88 @@
+@import '~antd/dist/antd.css';
+.app-changer{
+  margin-top: 150px;
+  margin-left: 740px;
+  display: grid;
+  grid-template-areas:
+  "logo logо logo"
+  "Names Change Del"
+;
+  grid-template-rows: 60px 2fr;
+  grid-auto-columns: 2fr 2fr 2fr;
+}
+div.Logo{
+  color: black;
+  padding-left: 5px;
+  grid-area: logo;
+  font-size: 30px;
+  font-weight: 300;
+}
+ul.Names li p{
+  margin: 0;
+  text-align: center;
+  display: inline-block;
+  height: auto;
+  width: auto;
+  margin-top: 30%;
+  color: black;
+  font-size: 24px;
+  font-weight: 200;
+}
+
+ul.Names li{
+  grid-area: Names;
+  height: min-content;
+  width: min-content;
+  /*border: 1px  solid green;*/
+}
+
+ul.ChangeButtom li  a {
+  display: inline-block;
+  margin: 0;
+  font-size:16px;
+  font-family: Roboto,sans-serif;
+  font-weight: 700;
+  position: absolute;
+  left: 20%;
+  top: 20%;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+}
+ul.ChangeButtom li{
+  margin-left: -35%;
+  margin-top: 10px;
+  position: relative;
+  background: rgb(0, 210, 239);
+  grid-area: Change;
+  height: 40px;
+  width: 95px;
+  border-radius: 5px;
+  /*border: 1px solid aqua;*/
+}
+ul.DelButtom li{
+  /*border: 1px solid red;*/
+  margin-left: -55px;
+  padding-top: 15px;
+  height: min-content;
+  width: min-content;
+  grid-area: Del;
+}
+
+ul.DelButtom li {
+  display: block;
+  height: min-content;
+  width: min-content;
+  margin-top: -5xp;
+}
+
+ul.DelButtom li a{
+  font-size: 22px;
+  margin: 0;
+  color: red;
+}
+ul{
+  float: left;
+  list-style-type: none;
+}
+
