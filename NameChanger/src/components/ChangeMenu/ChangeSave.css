@@ -10,7 +10,7 @@ div.ChangeSave {
     width: 90px;
     border-radius: 5px;
 }
-div.ChangeSave p{
+div.ChangeSave a{
     display: inline-block;
     padding-top: 10%;
     padding-left: 30%;

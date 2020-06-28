@@ -1,16 +1,20 @@
 import React from "react";
 import {message} from "antd";
-import {NavLink} from 'react-router-dom';
 import './ChangeSave.css';
+let click  = 1;
+const Return = () => {
+    setTimeout(window.history.back(),4000,click = 1,);
+}
 
 const success = () => {
-    message.success('User is saved', 2);
+    if(  click === 1) {
+        message.success('User is saved', 1, Return);
+        click = 0;
+    }
 };
 function ChangeSave() {
     return(
-
-            <div className="ChangeSave"  onClick={success}><NavLink  to="/"><p>Save</p></NavLink></div>
-
+        <div className="ChangeSave" onClick={success}><a>Save</a></div>
     );
 }
 
