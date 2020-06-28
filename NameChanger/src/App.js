@@ -11,7 +11,7 @@ function App() {
       <div className='app-changer'>
             <div><Logo/></div>
           <div>
-            <div><Route path = '/MainMenu' component={MainMenu}/></div>
+            <div><Route  exact path = '/' component={MainMenu}/></div>
             <div><Route path=  '/ChangeMenu' component={ChangeMenu}/></div>
           </div>
       </div>

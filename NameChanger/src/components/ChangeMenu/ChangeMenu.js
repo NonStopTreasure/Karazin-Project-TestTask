@@ -7,7 +7,7 @@ function ChangeMenu() {
     return(
             <div className="ChangeMenu">
                 <div className="ChangeInput"><input type="text"/></div>
-                <div className="ChangeSave"  onClick={Save_Script}><NavLink  to="/MainMenu"><button>Save</button></NavLink></div>
+                <div className="ChangeSave"  onClick={Save_Script}><NavLink  to="/"><button>Save</button></NavLink></div>
                 <div className="Note"><p>Dev note: can be in-place editing, not a new view</p></div>
             </div>
     );
