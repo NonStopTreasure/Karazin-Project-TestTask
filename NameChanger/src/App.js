@@ -3,14 +3,19 @@ import Logo from './components/Logo';
 import MainMenu from './components/MainMenu';
 import './App.css';
 import ChangeMenu from "./components/ChangeMenu/ChangeMenu";
+import {BrowserRouter, Route} from 'react-router-dom';
 
 function App() {
   return (
+      <BrowserRouter href="/MainMenu">
       <div className='app-changer'>
             <div><Logo/></div>
-            {/*<div><MainMenu/></div>*/}
-            <div><ChangeMenu/></div>
+          <div>
+            <div><Route path = '/MainMenu' component={MainMenu}/></div>
+            <div><Route path=  '/ChangeMenu' component={ChangeMenu}/></div>
+          </div>
       </div>
+      </BrowserRouter>
   );
 }
 

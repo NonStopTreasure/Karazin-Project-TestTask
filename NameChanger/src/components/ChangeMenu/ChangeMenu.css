@@ -1,6 +1,6 @@
 
 .ChangeSave Button{
-
+    grid-area: Name;
     margin-left: 5px;
     background: rgb(248, 96, 96);
     color: white;
@@ -10,12 +10,14 @@
     width: 95px;
     border-radius: 5px;
 }
-.ChangeForm input{
+.ChangeInput input{
+    grid-area: Change;
+    float: left;
     width: 90px;
     height: 40px;
     border-radius: 5px;
     border: 2px solid rgb(167, 165, 166);
 }
 .Note div{
-
+    grid-area: Del;
 }
