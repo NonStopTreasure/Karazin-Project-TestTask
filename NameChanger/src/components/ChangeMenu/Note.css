@@ -1,0 +1,7 @@
+
+div.Note {
+    grid-area: Del;
+}
+.Note p{
+    color: rgb(165, 165, 165);
+}

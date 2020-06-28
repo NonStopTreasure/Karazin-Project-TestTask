@@ -2,7 +2,7 @@ import React from 'react';
 import Logo from './components/Logo';
 import MainMenu from './components/MainMenu';
 import './App.css';
-import ChangeMenu from "./components/ChangeMenu/ChangeMenu";
+import ChangeMenu from "./components/ChangeMenu";
 import {BrowserRouter, Route} from 'react-router-dom';
 
 function App() {
